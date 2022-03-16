@@ -3,7 +3,7 @@ import { Context } from '../context'
 
 const Button = () => {
   const {state, dispatch} = useContext(Context); //depends on which provider it is wrapped in App.js we get different values
-  console.log("state", state);
+  // console.log("state", state);
   return (
       <div className='mt-8 p-4'>
         <p className='mb-4'>Data: {state.user} </p>

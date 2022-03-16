@@ -10,3 +10,10 @@ for creating different data source :
 So now if we can use Context APi, we reallly do not need any external redux packages.
 
 This is the best example of using context API over REDUX.
+
+# New changes in this branch from main ::
+
+# observe Navbar.js file here as it reflects any change made in Button.js component.
+# And also Button.js component reflect changes made by Navbar.js component.
+# so literally data is shared effectively between these two components 
+# as done in redux usage.
